@@ -1,0 +1,114 @@
+.hero {
+    background-image: url(../../images/bcg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 170px;
+    &__title {
+        padding: 117px 0 116px 85px;
+        width: 50%;
+
+        h1 {
+            font-weight: 900;
+            font-size: 72px;
+            line-height: 72px;
+            color: #FEFCF7;
+            margin-bottom: 32px;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+            margin-bottom: 70px;
+            opacity: .8;
+        }
+
+        a {
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            background: #66D2CF;
+            border-radius: 6px;
+            padding: 16px 32px;
+            &:hover{
+                background: #B9FFF8;
+                color: #003865;
+            }
+        }
+    }
+
+}
+@media only screen and (max-width:1076px){
+    .hero__title{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:865px){
+    .hero__title{
+        width: 70%;
+        padding: 80px 0 80px 50Px;
+        h1{
+            font-size: 48px;
+            line-height: 48px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 25px;
+        }
+        a{
+            font-size: 15px;
+            padding: 12px 27px;
+        }
+    }
+}
+@media only screen and (max-width:580px){
+    .hero{
+        background-image: url(../../images/bcg-img.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .hero__title{
+        padding-left: 50px;
+        h1{
+            font-size: 40px;
+            line-height: 48px;
+        }
+        p{
+            font-size:14px ;
+            line-height: 25px;
+        }
+    }
+}
+@media only screen and (max-width:500px){
+    .hero{
+        background-image: url(../../images/Bitmap.png);
+    }
+    
+    .hero__title{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        a{
+            display: block;
+            margin: 0 auto;
+            width: 217px;
+        }
+    }
+}
+
+
+

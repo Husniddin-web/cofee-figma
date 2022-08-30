@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0 10px;
+    font-family: 'Fraunces', sans-serif;
+    font-family: 'Barlow', sans-serif;
+    background: #FEFCF7;
+}
+
+img{
+    object-fit: cover;
+}
+h1 , h2 , h3 , h4 ,h5 {
+    font-family: 'Barlow' 'Fraunces';
+}
+P{
+    font-family: 'Barlow' ;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
