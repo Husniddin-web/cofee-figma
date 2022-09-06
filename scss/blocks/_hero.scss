@@ -11,6 +11,7 @@
         width: 50%;
 
         h1 {
+            font-family: 'Fraunces';
             font-weight: 900;
             font-size: 72px;
             line-height: 72px;
@@ -28,17 +29,17 @@
         }
 
         a {
+            font-family: 'Fraunces';
             font-weight: 900;
             font-size: 18px;
             line-height: 25px;
             text-align: center;
             color: #FEFCF7;
-            background: #66D2CF;
+            background: #37ada1;
             border-radius: 6px;
             padding: 16px 32px;
             &:hover{
-                background: #B9FFF8;
-                color: #003865;
+                background: #66D2CF;
             }
         }
     }
