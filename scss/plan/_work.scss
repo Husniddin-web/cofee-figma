@@ -92,6 +92,7 @@
 
 @media only screen and (max-width: 740px) {
     .work {
+        padding: 0 60px;
         a {
             display: block;
             margin: 0 auto;
@@ -115,11 +116,11 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        padding-left: 60px;
+        padding-left: 30px;
     }
 
     .work-hero {
-        width: 327px;
+        width: 427px;
         text-align: center;
         align-items: center;
 

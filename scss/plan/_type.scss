@@ -51,6 +51,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 0 40px;
     transition: all ease 3s;
 
     h3 {
@@ -243,7 +244,7 @@
         }
     }
     .quote{
-        width: 90%;
+        width: 99%;
     }
 }
 @media only screen and (max-width:600px){

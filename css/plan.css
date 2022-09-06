@@ -643,6 +643,9 @@ nav {
 }
 
 @media only screen and (max-width: 740px) {
+  .work {
+    padding: 0 60px;
+  }
   .work a {
     display: block;
     margin: 0 auto;
@@ -661,10 +664,10 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-left: 60px;
+    padding-left: 30px;
   }
   .work-hero {
-    width: 327px;
+    width: 427px;
     text-align: center;
     align-items: center;
   }
@@ -719,6 +722,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: 0 40px;
   transition: all ease 3s;
 }
 .type-right-title h3 {
@@ -883,7 +887,7 @@ nav {
     line-height: 32px;
   }
   .quote {
-    width: 90%;
+    width: 99%;
   }
 }
 @media only screen and (max-width: 600px) {
