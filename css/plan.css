@@ -661,13 +661,14 @@ nav {
     display: none;
   }
   .work-hero-wrapper {
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding-left: 30px;
   }
   .work-hero {
-    width: 427px;
+    width: 100%;
     text-align: center;
     align-items: center;
   }

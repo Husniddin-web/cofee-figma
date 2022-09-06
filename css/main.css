@@ -544,6 +544,7 @@ nav {
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
+    width: 90%;
   }
   .hero__title h1 {
     text-align: center;
@@ -700,7 +701,7 @@ nav {
 .benefits-title {
   padding-bottom: 250px;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
   align-items: center;
 }
 .benefits-title h3 {

@@ -562,7 +562,7 @@ nav {
     font-size: 32px;
   }
   .info__text p {
-    font-size: 15px;
+    font-size: 17px;
     line-height: 25px;
   }
 }
@@ -721,6 +721,7 @@ nav {
   .quality-media {
     padding: 0;
     padding-top: 130px;
+    width: 100%;
   }
   .quality-media__img {
     top: -60px;
