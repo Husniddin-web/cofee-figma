@@ -338,6 +338,7 @@ template {
 
 * {
   box-sizing: border-box;
+  transition: all 0.3s;
 }
 
 body {
@@ -346,6 +347,10 @@ body {
   font-family: "Fraunces 9pt", sans-serif;
   font-family: "Barlow", sans-serif;
   background: #FEFCF7;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 img {
@@ -680,6 +685,7 @@ nav {
 @media only screen and (max-width: 850px) {
   .collection {
     flex-direction: column;
+    margin-bottom: 50px;
   }
   .collection-img img {
     width: 100%;
@@ -936,11 +942,11 @@ nav {
   gap: 10px;
 }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 636px) {
   .work a {
     display: block;
     margin: 0 auto;
-    width: 217px;
+    width: 220px;
   }
   .check-box {
     margin: 0 auto;

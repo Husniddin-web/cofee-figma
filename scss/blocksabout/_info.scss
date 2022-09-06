@@ -66,13 +66,13 @@
         } 
 }
 }
-@media only screen and (max-width:470px){
+@media only screen and (max-width:418px){
     .info {
         flex-direction: column;
         &__img{
             img{
                 border-radius: 10px;
-                width: 327px;
+                width: 300px;
             }
         }
         &__text {
@@ -80,4 +80,7 @@
             width: 70%;
         } 
 }
+}
+@media only screen and (max-width:414px){
+
 }

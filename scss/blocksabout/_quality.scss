@@ -149,3 +149,35 @@
         }
     }
 }
+@media screen and (max-width: 418px) {
+    .quality-media {
+        padding: 0;
+        padding-top: 130px;
+
+
+        &__img {
+            top: -60px;
+            img {
+                width: 230px;
+            }
+        }
+
+        &__text {
+            padding: 0;
+            padding-bottom: 50px;
+            margin: 0;
+            width: 80%;
+            h3 {
+                text-align: center;
+                font-size: 28px;
+                line-height: 28px;
+            }
+
+            p {
+                text-align: center;
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+    }
+}
