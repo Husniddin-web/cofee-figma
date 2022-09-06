@@ -644,7 +644,8 @@ nav {
 
 @media only screen and (max-width: 740px) {
   .work {
-    padding: 0 60px;
+    padding: 0;
+    width: 100%;
   }
   .work a {
     display: block;
@@ -661,11 +662,10 @@ nav {
     display: none;
   }
   .work-hero-wrapper {
-    width: 100%;
+    width: 98%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
   }
   .work-hero {
     width: 100%;
